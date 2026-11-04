@@ -77,5 +77,6 @@ public class test {
         reverseInPlace(array2);
         IO.println(java.util.Arrays.toString(array2));
         IO.println("Print something");
+        IO.println("Print something else");
     }
 }
