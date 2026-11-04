@@ -3,7 +3,7 @@ package JavaDay3.JavaDay5.Task2;
 public class test {
 
     boolean isReverseOf(int[] xs, int[] ys) {
-        if( xs == null && ys == null){
+        if( xs == null && ys == null){ // add the comment
             return true;
         }
         if (xs == null || ys == null){
@@ -76,5 +76,6 @@ public class test {
         int[] array2 = { 5, 6, 7, 8, 9, 10, 11 };
         reverseInPlace(array2);
         IO.println(java.util.Arrays.toString(array2));
+        IO.println("Print something");
     }
 }
